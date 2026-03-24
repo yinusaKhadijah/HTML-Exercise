@@ -1,0 +1,25 @@
+/*This is a CSS style Comment*/
+
+p {
+  color:rgb(205,92,92);
+  background-color:lightblue;
+}
+
+h2 {
+  color:black;
+  background-color:#FFEBCD;
+}
+
+#myPara {
+  color:pink;
+  font-size: 40px;
+}
+.myClass {
+  color: grey;
+  background-color: red;
+  font-size: 25px;
+}
+.myClass2 {
+  font-style: italic;
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <main>
+    <form>
+      <fieldset>  <!--This creates like a border around the form-->
+        <!--
+        <legend>Please leave a comment...</legend>  . This tag is optional
+      -->
+      <label for="name">Name:</label>
+      <input type="text" name="name" value="" placeholder="Input your name"/>
+      <label for="email">Email:</label>   <!--we are using for="email" instead of for="text" because it confirms that the input enterred is actually an email by confirming whether there is an @ in it.-->
+      <input type="email" name="email" value="" required/>  <!--required is used to make sure that the input for that submission is not empty and it will not submit unless an input is entered there-->
+      <label for="password">Password:</label>
+      <input type="password" name="password" value="" placeholder="Input your password"/>
+      <label for="date">Date of Birth:</label>
+      <input type="date" name="date" value=""/>
+      <label for="comments">Comment:</label>
+      <textarea name="comments" cols="45" rows="5">
+      </textarea>
+      <br><br><br>
+      <input type="checkbox" name="vehicle" value="Bike">   <!--You link the options using the same name like the way the name for each checkbox is Vehicle-->
+      I have a bike
+      <br>
+      <input type="checkbox" name="vehicle" value="Car">
+      I have a car
+      <br>
+      <input type="checkbox" name="vehicle" value="Train">
+      I take a train
+      <br><br><br>
+
+      <br><br>
+      <input type="radio" name="vehicle2" value="Car">
+      I have a car
+      <br>
+      <input type="radio" name="vehicle2" value="Train">
+      I take a train
+
+      <br><br><br>
+      <label for="location">Location:</label>
+      <select name="location">
+        <option value="">Select location</option>
+        <option value="nyork">New York</option>
+        <option value="vancouver">Vancouver</option>
+        <option value="atlantis">Atlantis</option>
+        <option value="alpha">Alpha Centauri</option>
+        <option value="blackpool">Blackpool</option>
+        <option value="bognor">Bognor Regis</option>
+        <option value="aberdeen">Aberdeen</option>
+      </select>
+      <input type="submit" value="Sign in..." />
+    </fieldset>
+  </form>
+</main>
+</body>
+</html>
